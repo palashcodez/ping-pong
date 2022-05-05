@@ -1,77 +1,41 @@
-body
+
+.heading
 {
-    background-image: url("background1.jpg");
-    background-size: cover;
+width: 100%;
+text-align: left;
 }
-
-.heading{
-    width: 100%;
-    text-align: left;
-}
-
-#titleheader{
-    float: left;
+.heading h3{
     display: inline;
-    background-color: rgb(66, 66, 66);
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .heading button{
     float: right;
-    background-color: rgb(66, 66, 66);
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 30px;
+    border: 1px solid white;
 }
 
-.big_image{
-    width: 100%;
+#start ,#status, #restart
+{
+font-size: 22px;
 }
 
-#playbtn, #status{
-    background-color: rgb(71, 71, 71);
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 30px;
-    
+.modal-dialog
+{
+    width: 70%;
 }
-
-#playbtnbg{
-    background-color: rgb(0, 0, 0);
-    padding-top: 50px;
-    padding-bottom: 50px;
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
 }
-
-h4{
-    background-color: rgb(41, 70, 142);
-    color: whitesmoke;
-    line-height: 2;
-    margin: 0%;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-
-.modal-dialog{
-    width: 89.99999989898989898989898989989888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888999999%;
-}
-
-.Instriction_img{
-    display: inline-block;
-    width: 45%;
-}
-
-video{
-    background-image: url('game_console.png');
-    background-size: cover;
-    background-position: center;
-    padding: 22.5px;
-}
-
-canvas{
-    border: 5px solid orange ;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
